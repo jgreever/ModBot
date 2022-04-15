@@ -1,0 +1,20 @@
+{
+  "name": "modbot",
+  "version": "1.0.0",
+  "description": "A basic mod bot for Discord written in TypeScript using Discord.js",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^17.0.24",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "start": "ts-node src/ModBot.ts"
+  },
+  "author": "Justin Greever <jgreever@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  }
+}
